@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -27,3 +28,4 @@ sequenceDiagram
     deactivate server
     
     Note right of browser: Js script sends a GET request to the server, server responds with data.json file
+```
